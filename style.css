@@ -1,0 +1,48 @@
+
+* h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tab_btn_group {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.btn_box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  /* background: rgb(84, 80, 80); */
+  color: rgb(174, 101, 101);
+}
+
+.container .content {
+  display: none;
+}
+
+.container .content.active {
+  display: block;
+}
+
+/* .active {
+  color: rgb(113, 235, 65);
+  background: #817474;
+} */
+
+.tab_btn_group .btn.active {
+  color: rgb(73, 92, 233);
+}
+
+.content img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
